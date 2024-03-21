@@ -1,16 +1,17 @@
 ## OpenAI Details
 OPENAI_MODEL = "gpt-4-0125-preview"
-OPENAI_API_KEY = "YOUR_API_KEY"
+OPENAI_API_KEY = "YOUR_API_KEY_HERE"
+
 
 temp=0.7
 
 ## Labels and desired number of texts
 labels = [
-    ("Volleyball", 1),
-    ("Skateboarding", 1),
-    ("Soccer", 1),
-    ("Tennis", 1),
-    ("Golf", 1)
+    ("Volleyball", 2),
+    ("Skateboarding", 2),
+    ("Soccer", 2),
+    ("Tennis", 2),
+    ("Golf", 2)
     ]
 
 ## Kind of text (eg. Tweet, project descrition, report, review etc.)
